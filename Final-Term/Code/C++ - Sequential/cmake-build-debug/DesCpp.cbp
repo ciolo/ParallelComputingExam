@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DesCpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesCpp">
+				<Option output="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/DesCpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesCpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesCpp/fast">
+				<Option output="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/DesCpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesCpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/albertociolini/Desktop/Des/Sequential/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/albertociolini/Desktop/Des/Sequential/des.cpp">
+			<Option target="DesCpp"/>
+		</Unit>
+		<Unit filename="/Users/albertociolini/Desktop/Des/Sequential/des.h">
+			<Option target="DesCpp"/>
+		</Unit>
+		<Unit filename="/Users/albertociolini/Desktop/Des/Sequential/main.cpp">
+			<Option target="DesCpp"/>
+		</Unit>
+		<Unit filename="/Users/albertociolini/Desktop/Des/Sequential/utils.cpp">
+			<Option target="DesCpp"/>
+		</Unit>
+		<Unit filename="/Users/albertociolini/Desktop/Des/Sequential/utils.h">
+			<Option target="DesCpp"/>
+		</Unit>
+		<Unit filename="/Users/albertociolini/Desktop/Des/Sequential/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
