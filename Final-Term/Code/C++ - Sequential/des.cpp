@@ -519,7 +519,7 @@ void brute_force(string encrypted_text, int text_lenght, int **key) {
             cout << "Total time sequential: "<< time_tot << endl;
             cout << "Decrypted password: " << hex_to_string(decrypt(guess_text, key)) << endl;
 
-            return;
+            break;
         }
     }
 
